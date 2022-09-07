@@ -1,0 +1,77 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <ApplicationIcon>Resources\app.ico</ApplicationIcon>
+        <ApplicationManifest>app.manifest</ApplicationManifest>
+        <PackageId>MaFileRenamer</PackageId>
+        <Authors>mere1y</Authors>
+        <PackageIcon>app.ico</PackageIcon>
+        <Company>mere1y</Company>
+        <Product>MaFile Renamer</Product>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <DebugType>none</DebugType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+      <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.39" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+      <PackageReference Include="WindowsAPICodePack-Shell" Version="1.1.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Views" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Resources\app.ico" />
+      <Resource Include="Resources\app.ico" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="bin\Debug\net6.0-windows\MaFileRenamer.deps.json" />
+      <Content Include="bin\Debug\net6.0-windows\MaFileRenamer.dll" />
+      <Content Include="bin\Debug\net6.0-windows\MaFileRenamer.exe" />
+      <Content Include="bin\Debug\net6.0-windows\MaFileRenamer.pdb" />
+      <Content Include="bin\Debug\net6.0-windows\MaFileRenamer.runtimeconfig.json" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Binder.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.CommandLine.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.EnvironmentVariables.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Extensions.Hosting.Abstractions.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Extensions.Hosting.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Configuration.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Console.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Debug.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.EventLog.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.EventSource.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.Shell.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll" />
+      <Content Include="bin\Debug\net6.0-windows\Newtonsoft.Json.dll" />
+      <Content Include="bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll" />
+    </ItemGroup>
+
+</Project>
