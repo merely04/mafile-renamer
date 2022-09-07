@@ -22,7 +22,6 @@ public class ParseFilesCommand : AsyncCommandBase
     {
         try
         {
-            Debug.WriteLine("ParseFilesCommand()");
             var ofd = new CommonOpenFileDialog()
             {
                 IsFolderPicker = true,
