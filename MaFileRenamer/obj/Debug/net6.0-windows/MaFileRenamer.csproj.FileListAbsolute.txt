@@ -51,3 +51,4 @@ A:\C# Projects\MaFileRenamer\MaFileRenamer\bin\Debug\net6.0-windows\Microsoft.Xa
 A:\C# Projects\MaFileRenamer\MaFileRenamer\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
 A:\C# Projects\MaFileRenamer\MaFileRenamer\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.dll
 A:\C# Projects\MaFileRenamer\MaFileRenamer\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.Shell.dll
+A:\C# Projects\MaFileRenamer\MaFileRenamer\obj\Debug\net6.0-windows\MaFileRenamer_Content.g.cs
