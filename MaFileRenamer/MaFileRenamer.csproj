@@ -28,10 +28,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Views" />
-    </ItemGroup>
-
-    <ItemGroup>
       <None Remove="Resources\app.ico" />
       <Resource Include="Resources\app.ico" />
     </ItemGroup>

@@ -1,5 +1,5 @@
-.git
-.idea
+/.git
+/.idea
 
-bin
-obj
+*/bin
+*/obj
