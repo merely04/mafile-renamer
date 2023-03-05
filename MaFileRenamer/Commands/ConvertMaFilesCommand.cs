@@ -34,15 +34,15 @@ public class ConvertMaFilesCommand : IConvertMaFilesCommand
             foreach (var file in files)
             {
                 if (!Path.GetExtension(file).Equals(maFileExtension, StringComparison.InvariantCultureIgnoreCase))
-                    return;
+                    continue;
 
                 var fileInfo = new FileInfo(file);
                 if (!fileInfo.Exists)
-                    return;
+                    continue;
 
                 var fileDirectory = fileInfo.DirectoryName;
                 if (string.IsNullOrEmpty(fileDirectory))
-                    return;
+                    continue;
 
                 try
                 {

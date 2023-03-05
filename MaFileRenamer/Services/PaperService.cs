@@ -17,7 +17,7 @@ public class PaperService
         
         if (successCount > 0)
             Process.Start("explorer", outputPath);
-
+        
         MessageBox.Show(paper.ToString(), "Result", MessageBoxButton.OK, MessageBoxImage.Information);
     }
 }
